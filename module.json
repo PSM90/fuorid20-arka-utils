@@ -28,5 +28,7 @@
     },
     "esmodules": [
         "scripts/unlock.js"
-    ]
+    ],
+    "manifest": "https://raw.githubusercontent.com/PSM90/fuorid20-arka-utils/master/module.json",
+    "download": "https://github.com/PSM90/fuorid20-arka-utils/archive/refs/heads/master.zip"
 }
