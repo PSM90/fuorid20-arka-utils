@@ -1,0 +1,32 @@
+{
+    "id": "arkangel-unlocker",
+    "title": "Arkangel Utils",
+    "description": "Utility companion per Arkangel Compendium.",
+    "authors": [
+        {
+            "name": "Rebex"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "12"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system"
+            }
+        ],
+        "requires": [
+            {
+                "id": "arkangel-compendium",
+                "type": "module"
+            }
+        ]
+    },
+    "esmodules": [
+        "scripts/unlock.js"
+    ]
+}
